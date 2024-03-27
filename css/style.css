@@ -10,8 +10,8 @@ body {
 }
 
 main {
-    height: calc(100vh - 100px);
-    padding: 75px 75px 0 75px;
+    height: calc(100vh - 10vh);
+    padding: 100px 100px 0 100px;
     overflow: scroll;
 }
 
@@ -31,10 +31,7 @@ footer {
 }
 
 .col-7 {
-    margin: 10px 2px;
-    width: calc(100%/7 - 4px);
-    height: 250px;
-    background-color: blue;
+    width: calc(100%/7);
 }
 
 .d-flex{
@@ -51,25 +48,33 @@ footer {
 
 /* COLONNA SINISTRA DEL FOOTER */
 .footer-content :first-child {
-    width: 300px;
+    width: 15%;
     background-color: purple;
-    height: 100px;
+    height: 10vh;
 }
 
 /* COLONNA CENTRALE DEL FOOTER */
 .footer-content :nth-child(2) {
-    width: 600px;
+    width: 30%;
     background-color: aqua;
-    height: 100px;
+    height: 10vh;
 }
 
 /* COLONNA DESTRA DEL FOOTER */
 .footer-content :last-child {
-    width: 300px;
+    width: 15%;
     background-color: brown;
-    height: 100px;
+    height: 10vh;
 }
 
 .footer-content {
     border: 1px solid black;
+}
+
+.content {
+    padding: 0px 5px 10px 0px;
+}
+
+.content img {
+    max-width: 100%;
 }
